@@ -1,0 +1,149 @@
+h3{ 
+color: black;
+font-style: italic;
+text-align: center;
+
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: space-evenly;
+    justify-content:space-around;
+}
+
+body {
+    background-color: peachpuff
+    }
+h2 {
+   
+    font-style: italic;
+    font-family: Cambria;
+    text-align: center;
+}
+
+.casa { 
+    position: relative;
+    top: 50px;
+    left: 550px;
+    margin-bottom: 100px;
+}
+nav {
+    
+    color: black;
+    font-size: small;
+    font-style: italic;
+
+}
+.whatsapp {
+    height: 40px;
+    width: 40px;
+}   
+.face {
+    height: 50px;
+    width: 50px;
+}
+
+.ig {
+    height: 40px;
+    width: 40px;
+}
+
+a {
+    font-size: medium;
+    font-family: Georgia;
+    color: peachpuff;
+    text-decoration: none;
+    margin: 0px 30px 30px 30px;
+    padding: 10px;
+    border: solid 3px white;
+    background-color: black;   
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    background-color: none;
+}
+
+.titulo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 50px;
+    left: 600px;
+
+}
+
+.pizza {
+    height: 500px;
+    width: 700px;
+    margin-left: 30px;
+}
+.mapa {
+    height: 400px;
+    width: 400px;
+    margin: 50px
+
+}
+
+.fachada {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;}
+
+h4 {
+    font-style: italic;
+    font-style: oblique;
+    font-size: large;
+}
+
+ul {
+    list-style: none;
+}
+
+.producto {
+    height: 300px;
+    width: 380px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.divP1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px 20px 200px; 
+    
+}
+.divp2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: space-evenly;
+    justify-content: space-around;  
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    justify-content:space-evenly;
+    margin: right 0px;
+}
+
+h5 {
+    font-style: italic;
+}
