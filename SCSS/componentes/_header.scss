@@ -1,0 +1,39 @@
+header{
+    background-color: nth($colores, 16 );
+    border-bottom: 10px;
+    border-color: black;
+    
+
+    }
+.nav{
+    background-color: black;
+    border-bottom: 10px !important;
+    border-color: black !important;
+    margin-bottom: 10px !important;
+
+}
+ 
+
+
+
+.minavbar{
+    --bs-navbar-color:cornsilk;
+    font-size: large;
+    
+    }
+.minavbar-toggler{
+    --bs-navbar-color:cornsilk; 
+}
+
+
+.logo{
+    height: nth($size,6);
+    width: nth($size,6);
+}
+
+.nav-item{
+    text-align: left;
+}
+
+
+

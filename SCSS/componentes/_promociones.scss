@@ -1,0 +1,55 @@
+.mainpromo {
+    
+    margin-bottom: nth($size,6);
+
+}
+
+.calendar{
+    height:  nth($size,7);
+    width: nth($size,7);
+    margin: auto;
+    margin-bottom: nth($size,5);
+    display: block;
+}
+
+.mibotonenviar {
+    background-color: black;
+    color:cornsilk;
+    font-size: larger;
+    font-family: cursive;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.form-label{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+
+
+    .imgpromo {
+        height: nth($size,9);
+        width: nth($size,17);
+        margin-bottom: 30px;
+    }
+    
+    @media (max-width: 576px) {
+        .imgpromo {
+            height: 300px;
+            max-width: 100%;
+        }
+    }
+
+.divform{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 5px black;
+  padding: 20px;
+  margin: 30px;
+
+
+}

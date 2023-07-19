@@ -1,0 +1,45 @@
+.fachada{
+    height: nth($size,11);
+    width: nth($size,11);
+}
+@media (max-width:576px){.fachada {max-width: 100%; }
+}
+
+.pnosotros{
+    font-size: map-get($mimapa, fs );
+    font-family: map-get($mimapa, ffa );
+    font-style: italic;
+    justify-content: center;
+    text-align: left;
+    grid-area: textonosotros1;
+}
+
+.h3nosotros{
+    text-align: left;
+    font-family: map-get($mimapa, ffa );
+    font-size: map-get($mimapa, fs );
+    grid-area: textonosotros2;
+
+}
+
+.mapa{
+    width: auto;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    grid-area: mapanosotros;
+}
+
+.divnosotros{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto ;
+    grid-template-areas: "textonosotros1" "textonosotros2" "mapanosotros";
+    justify-items: center;
+    align-items: center;
+    margin:  nth($size,6);
+    gap: nth($size,12);
+    
+}
+
+

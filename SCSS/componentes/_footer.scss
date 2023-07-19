@@ -1,0 +1,24 @@
+footer{
+    background-color: nth($colores, 16);
+
+}
+.pfooter{
+@include mistextos(center, wavy, italic,larger);
+font-family: map-get($mimapa, ffa );
+color: nth($colores, 1 );
+margin-top: 10px;
+
+}
+
+.red{
+    height: nth($size,16);
+    width:nth($size,16);
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display:flex;
+    justify-self: right;
+    align-items: right;
+   
+}

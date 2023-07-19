@@ -1,0 +1,7 @@
+@mixin mistextos($ta, $td, $fst, $fsi){
+    text-align: $ta;
+    font-style: $fst;
+    text-decoration: $td;
+    font-size: $fsi;
+
+}

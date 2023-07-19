@@ -1,0 +1,10 @@
+$mimapa:(
+    fs: large,
+    ff: cursive,
+    ffa: 'times new roman',
+    color: black,
+    td: none,
+    border: nth($colores, 10) solid nth($size,2),
+
+    background-color: nth($colores, 11),
+    justify-items: center)

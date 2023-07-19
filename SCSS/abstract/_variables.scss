@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(to right, nth($colores, 6), nth($colores, 1));
+
+}
+.activo {
+    text-decoration: underline;
+}
+
+a{
+    font-size: map-get($mimapa, fs );
+    font-family: map-get($mimapa, ff );
+    color: map-get($mimapa, color );
+    border: nth($colores, 10) solid nth($size,2);
+    justify-items: center;
+    text-decoration: map-get($mimapa, td );
+
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: nth($colores, 16);
+  
+}
+
+h2{
+    font-style: italic;
+    font-family: 'Cambria';
+    text-align: center;
+    color: nth($colores, 16);
+
+
+}
+
+h3{
+    color: nth($colores, 16);
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+h4{
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: nth($size,2);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: larger;
+    color: nth($colores, 16) ;
+    
+}
+
+li{
+    text-align: center;
+}
+main{
+    margin-top: nth($size,5);
+}
+
+.caja :hover {
+    transform: scale(1.2);
+    transition: all 5s;
+    margin-bottom: 30px;
+    margin-top:20px;
+  }

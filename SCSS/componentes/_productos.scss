@@ -1,0 +1,123 @@
+.sectionproductos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "muza decarne pascualina"
+    "listamuza listadecarne listapascualina"
+    "fideos papa mila"
+    "listafideos listapapa listamila";
+    justify-items: center;
+    align-items: top;
+ }
+ 
+
+.ulproducto1{
+    grid-area: listamuza;
+    padding: nth($size,1);
+}
+
+.ulproducto2{
+    grid-area: listadecarne;
+}
+
+.ulproducto3{
+    grid-area: listapascualina;
+}
+
+.ulproducto4{
+    grid-area: listafideos;
+}
+
+.ulproducto5{
+    grid-area: listapapa;
+}
+
+.ulproducto6{
+    grid-area: listamila;
+}
+.pproductos{
+    text-align: center;
+}
+.producto1 {
+    height: nth($size,9);
+    width: nth($size,10);
+    align-items: center;
+    grid-area: muza;    
+}
+    @media (max-width: 576px) {
+        .producto1 {
+            height: 300px;
+            max-width: 100%;
+        }
+    }
+.producto2 {
+    height: nth($size,9);
+    width: nth($size,10);
+    grid-area: decarne;
+}
+     @media (max-width: 576px) {
+        .producto2 {
+         height: 300px;
+         max-width: 100%;
+     }
+}
+.producto3 {
+    height: nth($size,9);
+    width: nth($size,10);
+    grid-area: pascualina;
+}
+
+    @media (max-width: 576px) {
+        .producto3 {
+            height: 300px;
+            max-width: 100%;
+        }
+    }
+.producto4{
+
+    height: nth($size,9);
+    width: nth($size,10);
+        grid-area: fideos;
+}
+@media (max-width: 576px) {
+    .producto4 {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+.producto5 {
+    height: nth($size,9);
+    width: nth($size,10);
+    grid-area: papa;
+}
+@media (max-width: 576px) {
+    .producto5 {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+.producto6 {
+    height: nth($size,9);
+    width: nth($size,10);
+    grid-area: mila;
+}
+
+@media (max-width: 576px) {
+    .producto6 {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+.h4productos {
+    font-style: italic;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+.divP1 {
+    padding: 20px 200px 20px 200px; 
+    background-color: nth($colores, 1);
+        
+        
+    }   
+
+    
